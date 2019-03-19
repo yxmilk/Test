@@ -1,0 +1,26 @@
+﻿Build started 2019/3/19 15:54:42.
+     1>Project "G:\PictureBrowser\PictureBrowser\PictureBrowser\PictureBrowser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Programs\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MainWnd.cpp PictureBrowser.cpp PictureManager.cpp Utility.cpp
+         Utility.cpp
+         PictureManager.cpp
+         PictureBrowser.cpp
+     1>g:\duilib\duilib\duilib\core\uimanager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+         MainWnd.cpp
+     1>g:\duilib\duilib\duilib\core\uimanager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\PictureBrowser.res" PictureBrowser.rc 
+       Link:
+         C:\Programs\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\PictureBrowser\PictureBrowser\Debug\PictureBrowser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\PictureBrowser\PictureBrowser\Debug\PictureBrowser.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\PictureBrowser\PictureBrowser\Debug\PictureBrowser.lib" /MACHINE:X86 Debug\PictureBrowser.res
+         Debug\MainWnd.obj
+         Debug\PictureBrowser.obj
+         Debug\PictureManager.obj
+         Debug\stdafx.obj
+         Debug\Utility.obj
+         PictureBrowser.vcxproj -> G:\PictureBrowser\PictureBrowser\Debug\PictureBrowser.exe
+     1>Done Building Project "G:\PictureBrowser\PictureBrowser\PictureBrowser\PictureBrowser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.60

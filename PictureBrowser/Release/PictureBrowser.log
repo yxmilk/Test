@@ -1,0 +1,28 @@
+﻿Build started 2019/3/19 15:55:45.
+     1>Project "G:\PictureBrowser\PictureBrowser\PictureBrowser\PictureBrowser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Programs\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MainWnd.cpp PictureBrowser.cpp PictureManager.cpp Utility.cpp
+         MainWnd.cpp
+     1>g:\duilib\duilib\duilib\Core/UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+         PictureBrowser.cpp
+     1>g:\duilib\duilib\duilib\Core/UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+         PictureManager.cpp
+         Utility.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\PictureBrowser.res" PictureBrowser.rc 
+       Link:
+         C:\Programs\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\PictureBrowser\PictureBrowser\Release\PictureBrowser.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\PictureBrowser\PictureBrowser\Release\PictureBrowser.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\PictureBrowser\PictureBrowser\Release\PictureBrowser.lib" /MACHINE:X86 /SAFESEH Release\PictureBrowser.res
+         Release\MainWnd.obj
+         Release\PictureBrowser.obj
+         Release\PictureManager.obj
+         Release\stdafx.obj
+         Release\Utility.obj
+         Generating code
+         All 224 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         PictureBrowser.vcxproj -> G:\PictureBrowser\PictureBrowser\Release\PictureBrowser.exe
+     1>Done Building Project "G:\PictureBrowser\PictureBrowser\PictureBrowser\PictureBrowser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.33
